@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+body{
+  margin: 3% 5%;
+  background-color: aquamarine;
+}
+
+.App{
+  padding: 5%;
+  background-color: lightskyblue;
+}
+.App h1{
+  margin-bottom: 4%;
+}
