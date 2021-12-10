@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
+import styled from 'styled-components'
+
+const StyledImg = styled.img`
+    width: 50%;
+`
 
 const Image = (props) => {
     const { nasaData } = props;
     return (
-        <img src={nasaData.hdurl} alt='pic of the day' />
+
+        <StyledImg src={nasaData.hdurl} alt='pic of the day' />
     );
 }
 
